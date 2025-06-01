@@ -20,6 +20,7 @@ body {
     padding: 1.75rem 1rem;
     background-color: var(--almost-white);
 }
+
 body.escurecer::before {
     content: "";
     position: relative;
@@ -30,7 +31,7 @@ body.escurecer::before {
     left: 0;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -192,7 +193,7 @@ main{
 
 @media(min-width: 1110px){
 
-    header > buttom {
+    header > button {
         display: none;
     }
 
@@ -235,6 +236,10 @@ main{
     
     .primeira-secao h1{
         font-size: 3.5rem;
+    }
+      .primeira-secao button:hover {
+        background-color: var(--dark-blue);
+        cursor: pointer;
     }
 
     .segunda-secao h2 {
